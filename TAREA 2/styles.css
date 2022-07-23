@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background: white;
+  width: 100%;
+  height: 50px;
+}
+.infoPagina{
+    display: flex;
+    align-items: center;
+}
+.logo {
+  width: 100px;
+  height: 50px;
+  margin-right: 10px;
+  padding: 2px;
+}
+
+#portada {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: gold;
+}
+.mensaje {
+  color: black;
+  font-size: 100px;
+  padding: 0 50px;
+  background: #cee5f2;
+}
+#noticias {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #588157;
+}
+h2 {
+  color: black;
+  font-size: 80px;
+  text-align: center;
+}
+.ultimasNoticias {
+  padding-top: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.uNoticia {
+  width: 350px;
+  padding: 25px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+.tituloUN {
+  height: 50px;
+  text-align: center;
+}
+.imgUN {
+  width: 100%;
+  height: 150px;
+}
+.introUN {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+.linkUN {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: black;
+}
+.uNoticia:hover {
+  cursor: pointer;
+  background: #a3b18a;
+}
+#contacto {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #accbe1;
+}
+.formulario {
+  padding: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.etiqueta {
+  font-size: 40px;
+  width: 15%;
+}
+.datos {
+  font-size: 30px;
+  width: 30%;
+  text-align: center;
+}
+.boton {
+  font-size: 40px;
+  width: 100%;
+}
+footer {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background: white;
+}
+.redLogo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
