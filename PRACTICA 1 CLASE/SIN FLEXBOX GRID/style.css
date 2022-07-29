@@ -1,0 +1,83 @@
+*{
+    margin: 1%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+    text-align: center;
+}
+header{
+    background-color: greenyellow;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;*/
+}
+#h-uno{
+    width: 98%;
+    height: 15vh;  
+}
+nav{
+    background-color: white;
+}
+#h-uno nav{
+    width: 98%;
+    height: 8vh;
+    margin-top: 3vh;
+}
+section{
+    background-color: red;
+}
+#s-uno, #s-dos{
+    display: inline-block;
+}
+#s-uno{
+    width: 60%;
+}
+.h-dos{
+    width: 98%;
+    height: 10vh;
+}
+article{
+    width: 98%;
+    background: cyan;
+    padding-bottom: 1%;
+}
+p{
+    background-color: orange;
+    height: 12.5vh;
+}
+.p-uno{
+    width: 98%;
+}
+.p-dos, aside{
+    display: inline-block;
+    height: 5vh;
+}
+.p-dos{
+    width: 48%;
+}
+aside{
+    width: 48%;
+    background-color: white;
+}
+footer{
+    background-color: white;
+    height: 5vh;
+}
+article .f-uno{
+    margin: 5px;
+}
+#s-dos{
+    width: 35.5%;
+}
+#s-dos header{
+    width: 98%;
+    height: 42vh;
+}
+#s-dos nav{
+    width: 98%;
+    height: 8vh;
+    margin-top: 5.5vh;
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: purple;
+    text-align: center;
+    font-weight: 800;
+}
+header{
+    overflow: hidden;
+    background: greenyellow;
+    padding: 20px;
+    height: 5%;
+}
+nav{
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+    height: 70%;
+}
+section{
+    overflow: hidden;
+    background-color: red;
+    padding: 20px;
+    height: 450px;
+}
+article{
+    height: 70%;
+    overflow: hidden;
+    background-color: cyan;
+    padding: 20px;
+}
+p{
+    height: 10%;
+    background-color: orange;
+    padding: 10px;
+}
+footer{
+    overflow: hidden;
+    height: 15%;
+    background-color: white;
+    padding: 10px;
+}
+.aside{
+    overflow: hidden;
+    background-color: white;
+}
+.alto{
+    height: 450px;
+    background: white;
+}
+.gap{
+    height: 40px;
+}
